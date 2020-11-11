@@ -1,0 +1,12 @@
+{
+  "name": "@baby-octan/cypress",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "open": "cypress open",
+    "headless": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "4.8.0"
+  }
+}

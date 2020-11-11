@@ -1,0 +1,9 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "integrationFolder": "integration",
+  "pluginsFile": "./plugins/index.js",
+  "supportFile": "./support/index.js",
+  "fixturesFolder": false,
+  "fileServerFolder": "./",
+  "video": false
+}

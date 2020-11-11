@@ -1,0 +1,36 @@
+{
+  "name": "baby-octan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mattconde/baby-octan.git",
+  "author": "Matt Conde <matt.conde@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "dev:start": "pm2 start ecosystem.config.js",
+    "dev:stop": "pm2 stop ecosystem.config.js",
+    "dev:logs": "pm2 logs",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "integration": "lerna run headless"
+  },
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-cypress": "2.11.1",
+    "eslint-plugin-react": "7.20.0",
+    "jest": "26.0.1",
+    "lerna": "3.22.1",
+    "pm2": "^4.5.0",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql": "^15.4.0"
+  }
+}
